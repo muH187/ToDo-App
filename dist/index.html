@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" crossorigin href="/assets/index-CJVeRwbs.css">
+</head>
+<body>
+    <div class="main">
+        <div class="toDo_list h-72 w-[50%] bg-slate-200 shadow-2xl mx-auto rounded-xl mt-20">
+            <div class="top flex justify-between items-center">
+                <h1 class="text-3xl font-semibold ml-5 mt-2">To-Do List</h1>
+                <div>
+                    <span class="mr-5 mt-2 material-symbols-outlined">
+                        two_pager
+                        </span>
+                </div>
+            </div>
+            <div class="relative left-32 top-6">
+                <input id="inputTask" class="rounded-full p-3 w-[50%] text-xl border border-blue-600" type="text" placeholder="Enter Your Task">
+                <button id="btn" class="bg-blue-500 font-semibold hover:bg-blue-600 text-white py-2 px-5 rounded-full">Add</button>
+            </div>
+            <div class="relative left-40 top-8">
+                <ul class="listContainer">
+                    <!-- <li class="checked"></li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
